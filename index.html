@@ -16,10 +16,10 @@
 </head>
 
 <body>
-    <!--  -->
+    <!-- ------------------------------------------------------------------------------------------- -->
     <!--------------------------------------- nav bar -------------------------------------------------->
     <!-- ------------------------------------------------------------------------------------------- -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-primary fixed-top">
+    <nav id="theme" class="navbar navbar-expand-lg navbar-light bg-primary fixed-top">
         <img id="LOGO" src="img/pdp1.jpg" alt="avatar" srcset="">
         <a class="navbar-brand ml-2" href="#">Harzafi</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -39,6 +39,15 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-white" href="#scrol3" tabindex="-1" aria-disabled="true">CONTACT</a>
+                </li>
+               <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        THEME
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" onclick="color()">DARK</a>
+                        <a class="dropdown-item" onclick="color1()">NORMAL</a>
                 </li>
             </ul>
         </div>
@@ -73,7 +82,7 @@
                     <img src="img/epoket.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">E-pocket</h5>
-                        <a href="https://github.com/walidhar/E-pocket.git" class="btn btn-primary">Github</a>
+                        <a href="https://github.com/walidhar/E-pocket.git" class="btn btn-primary d-flex justify-content-center">Github</a>
                     </div>
                 </div>
             </div>
@@ -83,7 +92,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Site-Web-YouCode</h5>
                         <a href="https://github.com/walidhar/site-youcode.git"
-                            class="btn btn-primary">Github</a>
+                            class="btn btn-primary d-flex justify-content-center">Github</a>
                     </div>
                 </div>
             </div>
@@ -98,7 +107,7 @@
                     <img src="img/hackaton.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Hackathon-Youcode </h5>
-                        <a href="https://www.youtube.com/watch?v=eUi2zZVSJhA" class="btn btn-primary">Youtube</a>
+                        <a href="https://www.youtube.com/watch?v=eUi2zZVSJhA" class="btn btn-primary d-flex justify-content-center">Youtube</a>
                     </div>
                 </div>
             </div>
@@ -108,7 +117,7 @@
                     <img src="img/sas.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">period sas -YouCode</h5>
-                        <a href="https://youcode.ma/ar/programme/" class="btn btn-primary">Youtube</a>
+                        <a href="https://youcode.ma/ar/programme/" class="btn btn-primary d-flex justify-content-center">Youtube</a>
                     </div>
                 </div>
             </div>
@@ -275,7 +284,7 @@
             <div class="col">
                 <div class="card" style="width: 18rem;">
                     <div class="card-body">
-                        <a href="https://wa.me/+212613041159" class=""> <i class="fab fa-whatsapp icone"></i>0613041159</a>
+                        <a href="#" class=""> <i class="fab fa-whatsapp icone"></i>0613041159</a>
                     </div>
                 </div>
             </div>
@@ -306,13 +315,12 @@
             href="https://www.instagram.com/oualid.har/"><i
                 class="fab fa-instagram"></i></a>
         <a href="https://www.linkedin.com/in/walid-harzafi-90a894173/"><i class="fab fa-linkedin"></i></a>
-        <a id="cv" href="https://drive.google.com/drive/folders/141htdGyWs5xhdSCKkWHQENNbLteuU-g9">downlod cv</a>
+        <a id="cv" href="http://">downlod cv</a>
     </div>
     <!----------------------------------------------------------------------------------------------->
     <!------------------------------------------src js----------------------------------------------->
     <!----------------------------------------------------------------------------------------------->
-    <script src="js.js"></script>
-    <script src="jq.js"></script>
+    <script src="script.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
